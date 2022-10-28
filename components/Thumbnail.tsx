@@ -14,6 +14,7 @@ const Thumbnail = ({ movie }: Props) => {
          src={`https://image.tmdb.org/t/p/w500${
           movie.backdrop_path || movie.poster_path
         }`}
+        alt="thumbnail"
         className="rounded-sm object-cover md:rounded"
         // layout="fill"
       />
